@@ -13,7 +13,7 @@
 
 namespace fs = std::filesystem;
 
-constexpr int TILE = 256;
+constexpr int TILE = 64;
 
 enum Filter { NONE, GRAYSCALE, THRESHOLD, SHARPEN, EDGE, BLUR };
 
